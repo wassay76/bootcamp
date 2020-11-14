@@ -30,4 +30,4 @@ jobs:
       - name: Install NodeJS
         run:  npm install -g surge
       - name: Run Surge
-        run: surge ./ bootcampapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ zextro_aw.surge.sh --token ${{secrets.SURGE_TOKEN}}
